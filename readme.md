@@ -5,7 +5,7 @@
 
 <meta name="Author" content="Walter H.">
 <meta name="Generator" content="Microsoft Word 6.0 f. WinNT">
-<title>Intel 80x86 Assembly Language OpCodes</title>
+
 </head>
 <body data-new-gr-c-s-check-loaded="14.1049.0" data-gr-ext-installed="">
 <h2>Intel 80x86 Assembly Language OpCodes</h2>
