@@ -8,6 +8,7 @@
 
 </head>
 <body data-new-gr-c-s-check-loaded="14.1049.0" data-gr-ext-installed="">
+  <h3>Mirror of: http://www.mathemainzel.info/files/x86asmref.html</h3>
 <h2>Intel 80x86 Assembly Language OpCodes</h2>
 
 <div>
