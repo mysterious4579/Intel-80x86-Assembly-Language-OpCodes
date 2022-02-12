@@ -15,161 +15,161 @@ The following table provides a list of x86-Assembler mnemonics, that is not comp
 </div>
 
 <ol>
-<li value="0"><a href="http://www.mathemainzel.info/files/x86asmref.html#abrev">Notations and Format used in this Document</a></li>
-<li value="1"><a href="http://www.mathemainzel.info/files/x86asmref.html#aaa">AAA</a> - Ascii Adjust for Addition</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#aad">AAD</a> - Ascii Adjust for Division</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#aam">AAM</a> - Ascii Adjust for Multiplication</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#aas">AAS</a> - Ascii Adjust for Subtraction</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#adc">ADC</a> - Add With Carry</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#add">ADD</a> - Arithmetic Addition</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#and">AND</a> - Logical And</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#arpl">ARPL</a> - Adjusted Requested Privilege Level of Selector</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#bound">BOUND</a> - Array Index Bound Check</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#bsf">BSF</a> - Bit Scan Forward</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#bsr">BSR</a> - Bit Scan Reverse</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#bswap">BSWAP</a> - Byte Swap </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#bt">BT</a> - Bit Test </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#btc">BTC</a> - Bit Test with Compliment  </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#btr">BTR</a> - Bit Test with Reset  </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#bts">BTS</a> - Bit Test and Set  </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#call">CALL</a> - Procedure Call</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cbw">CBW</a> - Convert Byte to Word</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cdq">CDQ</a> - Convert Double to Quad</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#clc">CLC</a> - Clear Carry</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cld">CLD</a> - Clear Direction Flag</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cli">CLI</a> - Clear Interrupt Flag</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#clts">CLTS</a> - Clear Task Switched Flag</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cmc">CMC</a> - Complement Carry Flag</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cmp">CMP</a> - Compare</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cmps">CMPS</a> - Compare String </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cmpxchg">CMPXCHG</a> - Compare and Exchange</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cwd">CWD</a> - Convert Word to Doubleword</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#cwde">CWDE</a> - Convert Word to Extended Doubleword</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#daa">DAA</a> - Decimal Adjust for Addition</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#das">DAS</a> - Decimal Adjust for Subtraction</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#dec">DEC</a> - Decrement</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#div">DIV</a> - Divide</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#enter">ENTER</a> - Make Stack Frame</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#esc">ESC</a> - Escape</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#float">Floating point instuctions</a> - no descriptions</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#hlt">HLT</a> - Halt CPU</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#idiv">IDIV</a> - Signed Integer Division</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#imul">IMUL</a> - Signed Multiply</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#in">IN</a> - Input Byte or Word From Port</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#inc">INC</a> - Increment</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#ins">INS</a> - Input String from Port</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#int">INT</a> - Interrupt</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#into">INTO</a> - Interrupt on Overflow</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#invd">INVD</a> - Invalidate Cache  </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#invlpg">INVLPG</a> - Invalidate Translation Look-Aside Buffer Entry</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#iret">IRET/IRETD</a> - Interrupt Return</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#ja">JA/JNBE</a> - Jump Above / Jump Not Below or Equal</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jae">JAE/JNB</a> - Jump Above or Equal / Jump on Not Below</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jb">JB/JNAE</a> - Jump Below / Jump Not Above or Equal</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jbe">JBE/JNA</a> - Jump Below or Equal / Jump Not Above</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jc">JC</a> - Jump on Carry</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jcxz">JCXZ/JECXZ</a> - Jump if Register (E)CX is Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#je">JE/JZ</a> - Jump Equal / Jump Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jg">JG/JNLE</a> - Jump Greater / Jump Not Less or Equal</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jge">JGE/JNL</a> - Jump Greater or Equal / Jump Not Less</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jl">JL/JNGE</a> - Jump Less / Jump Not Greater or Equal</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jle">JLE/JNG</a> - Jump Less or Equal / Jump Not Greater</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jmp">JMP</a> - Unconditional Jump</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jnc">JNC</a> - Jump Not Carry</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jne">JNE/JNZ</a> - Jump Not Equal / Jump Not Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jno">JNO</a> - Jump Not Overflow</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jns">JNS</a> - Jump Not Signed</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jnp">JNP/JPO</a> - Jump Not Parity / Jump Parity Odd</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jo">JO</a> - Jump on Overflow</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#jp">JP/JPE</a> - Jump on Parity / Jump on Parity Even</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#js">JS</a> - Jump Signed</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lahf">LAHF</a> - Load Register AH From Flags</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lar">LAR</a> - Load Access Rights</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lds">LDS</a> - Load Pointer Using DS</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lea">LEA</a> - Load Effective Address</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#leave">LEAVE</a> - Restore Stack for Procedure Exit</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#les">LES</a> - Load Pointer Using ES</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lfs">LFS</a> - Load Pointer Using FS</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lgdt">LGDT</a> - Load Global Descriptor Table</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lidt">LIDT</a> - Load Interrupt Descriptor Table </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lgs">LGS</a> - Load Pointer Using GS </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lldt">LLDT</a> - Load Local Descriptor Table</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lmsw">LMSW</a> - Load Machine Status Word </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lock">LOCK</a> - Lock Bus</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lods">LODS</a> - Load String</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#loop">LOOP</a> - Decrement CX and Loop if CX Not Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#loope">LOOPE/LOOPZ</a> - Loop While Equal / Loop While Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#loopnz">LOOPNZ/LOOPNE</a> - Loop While Not Zero / Loop While Not Equal</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lsl">LSL</a> - Load Segment Limit </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#lss">LSS</a> - Load Pointer Using SS</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#ltr">LTR</a> - Load Task Register  </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#mov">MOV</a> - Move Byte or Word</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#movs">MOVS</a> - Move String </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#movsx">MOVSX</a> - Move with Sign Extend </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#movzx">MOVZX</a> - Move with Zero Extend</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#mul">MUL</a> - Unsigned Multiply</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#neg">NEG</a> - Two's Complement Negation</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#nop">NOP</a> - No Operation </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#not">NOT</a> - One's Compliment Negation</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#or">OR</a> - Inclusive Logical OR</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#out">OUT</a> - Output Data to Port</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#outs">OUTS</a> - Output String to Port</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#pop">POP</a> - Pop Word off Stack</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#popa">POPA/POPAD</a> - Pop All Registers onto Stack</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#popf">POPF/POPFD</a> - Pop Flags off Stack</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#push">PUSH</a> - Push Word onto Stack</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#pusha">PUSHA/PUSHAD</a> - Push All Registers onto Stack</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#pushf">PUSHF/PUSHFD</a> - Push Flags onto Stack</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#rcl">RCL</a> - Rotate Through Carry Left</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#rcr">RCR</a> - Rotate Through Carry Right</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#rep">REP</a> - Repeat String Operation</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#repe">REPE/REPZ</a> - Repeat Equal / Repeat Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#repne">REPNE/REPNZ</a> - Repeat Not Equal / Repeat Not Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#ret">RET/RETF</a> - Return From Procedure</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#rol">ROL</a> - Rotate Left</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#ror">ROR</a> - Rotate Right</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sahf">SAHF</a> - Store AH Register into FLAGS</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sal">SAL/SHL</a> - Shift Arithmetic Left / Shift Logical Left</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sar">SAR</a> - Shift Arithmetic Right</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sbb">SBB</a> - Subtract with Borrow</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#scas">SCAS</a> - Scan String </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setae">SETAE/SETNB</a> - Set if Above or Equal / Set if Not Below</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setb">SETB/SETNAE</a> - Set if Below / Set if Not Above or Equal</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setbe">SETBE/SETNA</a> - Set if Below or Equal / Set if Not Above</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sete">SETE/SETZ</a> - Set if Equal / Set if Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setne">SETNE/SETNZ</a> - Set if Not Equal / Set if Not Zero</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setl">SETL/SETNGE</a> - Set if Less / Set if Not Greater or Equal</li> 
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setge">SETGE/SETNL</a> - Set if Greater or Equal / Set if Not Less</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setle">SETLE/SETNG</a> - Set if Less or Equal / Set if Not greater or Equal</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setg">SETG/SETNLE</a> - Set if Greater / Set if Not Less or Equal</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sets">SETS</a> - Set if Signed</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setns">SETNS</a> - Set if Not Signed</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setc">SETC</a> - Set if Carry</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setnc">SETNC</a> - Set if Not Carry</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#seto">SETO</a> - Set if Overflow</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setno">SETNO</a> - Set if Not Overflow</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setp">SETP/SETPE</a> - Set if Parity / Set if Parity Even</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#setnp">SETNP/SETPO</a> - Set if No Parity / Set if Parity Odd</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sgdt">SGDT</a> - Store Global Descriptor Table</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sidt">SIDT</a> - Store Interrupt Descriptor Table</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#shr">SHR</a> - Shift Logical Right</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#shld">SHLD/SHRD</a> - Double Precision Shift</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sldt">SLDT</a> - Store Local Descriptor Table</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#smsw">SMSW</a> - Store Machine Status Word</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#stc">STC</a> - Set Carry</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#std">STD</a> - Set Direction Flag</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sti">STI</a> - Set Interrupt Flag</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#stos">STOS</a> - Store String </li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#str">STR</a> - Store Task Register</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#sub">SUB</a> - Subtract</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#test">TEST</a> - Test For Bit Pattern</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#verr">VERR</a> - Verify Read</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#verw">VERW</a> - Verify Write</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#wait">WAIT/FWAIT</a> - Event Wait</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#wbinvd">WBINVD</a> - Write-Back and Invalidate Cache</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#xchg">XCHG</a> - Exchange</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#xlat">XLAT/XLATB</a> - Translate</li>
-<li><a href="http://www.mathemainzel.info/files/x86asmref.html#xor">XOR</a> - Exclusive OR</li>
+<li value="0"><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#abrev">Notations and Format used in this Document</a></li>
+<li value="1"><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#aaa">AAA</a> - Ascii Adjust for Addition</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#aad">AAD</a> - Ascii Adjust for Division</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#aam">AAM</a> - Ascii Adjust for Multiplication</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#aas">AAS</a> - Ascii Adjust for Subtraction</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#adc">ADC</a> - Add With Carry</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#add">ADD</a> - Arithmetic Addition</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#and">AND</a> - Logical And</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#arpl">ARPL</a> - Adjusted Requested Privilege Level of Selector</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#bound">BOUND</a> - Array Index Bound Check</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#bsf">BSF</a> - Bit Scan Forward</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#bsr">BSR</a> - Bit Scan Reverse</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#bswap">BSWAP</a> - Byte Swap </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#bt">BT</a> - Bit Test </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#btc">BTC</a> - Bit Test with Compliment  </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#btr">BTR</a> - Bit Test with Reset  </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#bts">BTS</a> - Bit Test and Set  </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#call">CALL</a> - Procedure Call</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cbw">CBW</a> - Convert Byte to Word</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cdq">CDQ</a> - Convert Double to Quad</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#clc">CLC</a> - Clear Carry</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cld">CLD</a> - Clear Direction Flag</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cli">CLI</a> - Clear Interrupt Flag</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#clts">CLTS</a> - Clear Task Switched Flag</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cmc">CMC</a> - Complement Carry Flag</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cmp">CMP</a> - Compare</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cmps">CMPS</a> - Compare String </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cmpxchg">CMPXCHG</a> - Compare and Exchange</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cwd">CWD</a> - Convert Word to Doubleword</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#cwde">CWDE</a> - Convert Word to Extended Doubleword</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#daa">DAA</a> - Decimal Adjust for Addition</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#das">DAS</a> - Decimal Adjust for Subtraction</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#dec">DEC</a> - Decrement</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#div">DIV</a> - Divide</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#enter">ENTER</a> - Make Stack Frame</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#esc">ESC</a> - Escape</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#float">Floating point instuctions</a> - no descriptions</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#hlt">HLT</a> - Halt CPU</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#idiv">IDIV</a> - Signed Integer Division</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#imul">IMUL</a> - Signed Multiply</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#in">IN</a> - Input Byte or Word From Port</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#inc">INC</a> - Increment</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#ins">INS</a> - Input String from Port</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#int">INT</a> - Interrupt</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#into">INTO</a> - Interrupt on Overflow</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#invd">INVD</a> - Invalidate Cache  </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#invlpg">INVLPG</a> - Invalidate Translation Look-Aside Buffer Entry</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#iret">IRET/IRETD</a> - Interrupt Return</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#ja">JA/JNBE</a> - Jump Above / Jump Not Below or Equal</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jae">JAE/JNB</a> - Jump Above or Equal / Jump on Not Below</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jb">JB/JNAE</a> - Jump Below / Jump Not Above or Equal</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jbe">JBE/JNA</a> - Jump Below or Equal / Jump Not Above</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jc">JC</a> - Jump on Carry</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jcxz">JCXZ/JECXZ</a> - Jump if Register (E)CX is Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#je">JE/JZ</a> - Jump Equal / Jump Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jg">JG/JNLE</a> - Jump Greater / Jump Not Less or Equal</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jge">JGE/JNL</a> - Jump Greater or Equal / Jump Not Less</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jl">JL/JNGE</a> - Jump Less / Jump Not Greater or Equal</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jle">JLE/JNG</a> - Jump Less or Equal / Jump Not Greater</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jmp">JMP</a> - Unconditional Jump</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jnc">JNC</a> - Jump Not Carry</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jne">JNE/JNZ</a> - Jump Not Equal / Jump Not Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jno">JNO</a> - Jump Not Overflow</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jns">JNS</a> - Jump Not Signed</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jnp">JNP/JPO</a> - Jump Not Parity / Jump Parity Odd</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jo">JO</a> - Jump on Overflow</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#jp">JP/JPE</a> - Jump on Parity / Jump on Parity Even</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#js">JS</a> - Jump Signed</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lahf">LAHF</a> - Load Register AH From Flags</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lar">LAR</a> - Load Access Rights</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lds">LDS</a> - Load Pointer Using DS</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lea">LEA</a> - Load Effective Address</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#leave">LEAVE</a> - Restore Stack for Procedure Exit</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#les">LES</a> - Load Pointer Using ES</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lfs">LFS</a> - Load Pointer Using FS</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lgdt">LGDT</a> - Load Global Descriptor Table</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lidt">LIDT</a> - Load Interrupt Descriptor Table </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lgs">LGS</a> - Load Pointer Using GS </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lldt">LLDT</a> - Load Local Descriptor Table</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lmsw">LMSW</a> - Load Machine Status Word </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lock">LOCK</a> - Lock Bus</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lods">LODS</a> - Load String</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#loop">LOOP</a> - Decrement CX and Loop if CX Not Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#loope">LOOPE/LOOPZ</a> - Loop While Equal / Loop While Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#loopnz">LOOPNZ/LOOPNE</a> - Loop While Not Zero / Loop While Not Equal</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lsl">LSL</a> - Load Segment Limit </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#lss">LSS</a> - Load Pointer Using SS</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#ltr">LTR</a> - Load Task Register  </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#mov">MOV</a> - Move Byte or Word</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#movs">MOVS</a> - Move String </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#movsx">MOVSX</a> - Move with Sign Extend </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#movzx">MOVZX</a> - Move with Zero Extend</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#mul">MUL</a> - Unsigned Multiply</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#neg">NEG</a> - Two's Complement Negation</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#nop">NOP</a> - No Operation </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#not">NOT</a> - One's Compliment Negation</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#or">OR</a> - Inclusive Logical OR</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#out">OUT</a> - Output Data to Port</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#outs">OUTS</a> - Output String to Port</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#pop">POP</a> - Pop Word off Stack</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#popa">POPA/POPAD</a> - Pop All Registers onto Stack</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#popf">POPF/POPFD</a> - Pop Flags off Stack</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#push">PUSH</a> - Push Word onto Stack</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#pusha">PUSHA/PUSHAD</a> - Push All Registers onto Stack</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#pushf">PUSHF/PUSHFD</a> - Push Flags onto Stack</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#rcl">RCL</a> - Rotate Through Carry Left</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#rcr">RCR</a> - Rotate Through Carry Right</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#rep">REP</a> - Repeat String Operation</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#repe">REPE/REPZ</a> - Repeat Equal / Repeat Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#repne">REPNE/REPNZ</a> - Repeat Not Equal / Repeat Not Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#ret">RET/RETF</a> - Return From Procedure</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#rol">ROL</a> - Rotate Left</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#ror">ROR</a> - Rotate Right</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sahf">SAHF</a> - Store AH Register into FLAGS</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sal">SAL/SHL</a> - Shift Arithmetic Left / Shift Logical Left</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sar">SAR</a> - Shift Arithmetic Right</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sbb">SBB</a> - Subtract with Borrow</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#scas">SCAS</a> - Scan String </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setae">SETAE/SETNB</a> - Set if Above or Equal / Set if Not Below</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setb">SETB/SETNAE</a> - Set if Below / Set if Not Above or Equal</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setbe">SETBE/SETNA</a> - Set if Below or Equal / Set if Not Above</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sete">SETE/SETZ</a> - Set if Equal / Set if Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setne">SETNE/SETNZ</a> - Set if Not Equal / Set if Not Zero</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setl">SETL/SETNGE</a> - Set if Less / Set if Not Greater or Equal</li> 
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setge">SETGE/SETNL</a> - Set if Greater or Equal / Set if Not Less</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setle">SETLE/SETNG</a> - Set if Less or Equal / Set if Not greater or Equal</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setg">SETG/SETNLE</a> - Set if Greater / Set if Not Less or Equal</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sets">SETS</a> - Set if Signed</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setns">SETNS</a> - Set if Not Signed</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setc">SETC</a> - Set if Carry</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setnc">SETNC</a> - Set if Not Carry</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#seto">SETO</a> - Set if Overflow</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setno">SETNO</a> - Set if Not Overflow</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setp">SETP/SETPE</a> - Set if Parity / Set if Parity Even</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#setnp">SETNP/SETPO</a> - Set if No Parity / Set if Parity Odd</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sgdt">SGDT</a> - Store Global Descriptor Table</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sidt">SIDT</a> - Store Interrupt Descriptor Table</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#shr">SHR</a> - Shift Logical Right</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#shld">SHLD/SHRD</a> - Double Precision Shift</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sldt">SLDT</a> - Store Local Descriptor Table</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#smsw">SMSW</a> - Store Machine Status Word</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#stc">STC</a> - Set Carry</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#std">STD</a> - Set Direction Flag</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sti">STI</a> - Set Interrupt Flag</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#stos">STOS</a> - Store String </li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#str">STR</a> - Store Task Register</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#sub">SUB</a> - Subtract</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#test">TEST</a> - Test For Bit Pattern</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#verr">VERR</a> - Verify Read</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#verw">VERW</a> - Verify Write</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#wait">WAIT/FWAIT</a> - Event Wait</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#wbinvd">WBINVD</a> - Write-Back and Invalidate Cache</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#xchg">XCHG</a> - Exchange</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#xlat">XLAT/XLATB</a> - Translate</li>
+<li><a https://github.com/mysterious4579/Intel-80x86-Assembly-Language-OpCodes/blob/main/readme.md#xor">XOR</a> - Exclusive OR</li>
 </ol>
 
 <h3><a name="abrev">Notations and Format used in this Document</a></h3>
